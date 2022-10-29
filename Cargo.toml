@@ -1,0 +1,15 @@
+[package]
+name = "rvu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Amit Khatri"]
+description = "This the test app in the development state"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.18", features = ["derive"] }
+image = "0.24.4"
+pixels = "0.10.0"
+thiserror = "1.0.37"
+winit = "0.27.5"
